@@ -1,0 +1,57 @@
+body{
+    background-size: cover;
+    background-position: center;
+    font-family: 'Sansita Swashed', cursive;
+    color: #FFFF33;
+}
+
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+}
+
+.modeldiv:hover{
+color: chartreuse;
+}
+
+.modeldiv{
+    background-color: #FF6600;
+    float: none;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow:10px 10px 10px #FFFF33;
+}
+
+.objectdiv{
+    font-size: 20px;
+}
+
+.resulttag{
+    background: linear-gradient(#FFFF33,chartreuse);
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #FF6600;
+    border-radius: 10px;
+}
+
+#copyright{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FF6600;
+    text-align: center;
+    line-height: 2;
+    font-size: 25px;
+}
+
+canvas{
+    box-shadow: 10px 10px 10px #FFFF33;
+    margin-top: -20px;
+}
+
+#resultdiv{
+    margin-top: 350px;
+}
