@@ -26,6 +26,6 @@ function getResults(error,results){
     if(results){
         console.log(results);
         document.getElementById("objectname").innerHTML=results[0].label;
-        document.getElementById("accuracy").innerHTML=results[0].confidence;
+        document.getElementById("accuracy").innerHTML=results[0].confidence.toFixed(3);
     }
 }
